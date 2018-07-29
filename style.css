@@ -159,7 +159,7 @@ html, body {
 }
 
 .era {
-    height: 373px;
+    height: 388px;
 }
 
 .playing_era {
@@ -181,6 +181,11 @@ html, body {
     font-size: 25px;
 }
 
+.era2 {
+    height: 386px;
+    position: relative;
+}
+
 .playing_era2 {
     background-color: #75aadb;
     height: 80px;
@@ -198,6 +203,11 @@ html, body {
     font-family: "Oswald", sans-serif;
     color: white;
     font-size: 25px;
+}
+
+.era3 {
+    height: 386px;
+    position: relative;
 }
 
 .playing_era3 {
@@ -226,7 +236,7 @@ html, body {
     top: 40%;
     transform: translateY(-50%);
     width: 100%;
-    padding: 41px 0px;
+    padding: 40px 0px;
     margin: 0px auto;
 }
 
@@ -242,7 +252,7 @@ html, body {
 }
 
 .profile h2 {
-	font-size: 30px;
+	font-size: 40px;
 	color: #FFA800;
     margin-bottom: 100px;
     margin-top: 0px;
@@ -261,3 +271,40 @@ html, body {
 .clearfix {
     clear: both;
 }
+
+.footer {
+    position: relative;
+    height: 300px;
+    display: block;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.footer h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: "Oswald";
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #ff6666;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer::after {
+    content: "";
+    background-color: #31698a;
+    background-image: url("img/milan-liverpool_2005.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }

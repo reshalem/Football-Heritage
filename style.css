@@ -50,12 +50,12 @@ html, body {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    padding: 11px 15px;
+    padding: 11px 10px;
     margin: 0px;
     color: #3c3b3f;
-    font-family: "Avenue Drift";
+    font-family: "Righteous", cursive;
     letter-spacing: 0.01em;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .header a {
@@ -98,7 +98,7 @@ html, body {
     margin: 0px auto;
     z-index: 1;
     position: relative;
-    font-family: "Oswald";
+    font-family: "Oswald", sans-serif;
     display: block;
     background-color: #4b5320;
     overflow: hidden;
@@ -113,6 +113,7 @@ html, body {
 
 .main-container h1 {
     font-size: 60px;
+    font-family: "Oswald", sans-serif;
     color: #ffa500;
     text-transform: uppercase;
     margin: 0px auto;
@@ -126,7 +127,8 @@ html, body {
     color: #ffa500;
     font-size: 20px;
     letter-spacing: 1px;
-    font-family: "Oswald Regular";
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     background-color: rgba(60, 59, 63, 0.75);
     width: 58%;
     margin: 0px auto;
@@ -330,7 +332,8 @@ html, body {
     color: #EFEFEF;
     font-size: 20px;
     letter-spacing: 1px;
-    font-family: "Oswald Regular";
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     margin: 0px auto;
 }
 
@@ -344,7 +347,7 @@ html, body {
     display: block;
     margin: 0px;
     overflow: hidden;
-    font-family: "Oswald";
+    font-family: "Oswald", sans-serif;
     background-color: #daa520;
 }
 
